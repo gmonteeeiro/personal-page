@@ -154,12 +154,12 @@
 
 	body, input, select, textarea {
 		color: #414f57;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Trebuchet MS", Helvetica, sans-serif;
 		font-size: 14pt;
 		font-weight: 300;
 		line-height: 2;
-		letter-spacing: 0.2em;
-		text-transform: uppercase;
+		/*letter-spacing: 0.2em;*/
+		/*text-transform: uppercase;*/
 	}
 
 		@media screen and (max-width: 1680px) {
@@ -224,7 +224,7 @@
 
 	h1 {
 		font-size: 1.85em;
-		letter-spacing: 0.22em;
+		/*letter-spacing: 0.22em;*/
 		margin: 0 0 0.525em 0;
 	}
 
@@ -909,7 +909,12 @@
 				display: block;
 				margin: 0 auto;
 				border-radius: 100%;
-				box-shadow: 0 0 0 1.5em #ffffff;
+            box-shadow: 0 0 0 1.5em #ffffff;
+            
+            max-width:122px;
+            max-height:122px;
+            width: auto;
+            height: auto;
 			}
 
 			#main .avatar:before {
