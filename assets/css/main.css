@@ -213,8 +213,8 @@
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #313f47;
-		line-height: 1.5;
-		margin: 0 0 0.75em 0;
+		/*line-height: 1.5;*/
+		/*margin: 0 0 0.75em 0;*/
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -225,7 +225,7 @@
 	h1 {
 		font-size: 1.85em;
 		/*letter-spacing: 0.22em;*/
-		margin: 0 0 0.525em 0;
+		/*margin: 0 0 0.525em 0;*/
 	}
 
 	h2 {
@@ -233,7 +233,8 @@
 	}
 
 	h3 {
-		font-size: 1em;
+      font-size: 1em;
+      margin: 0 0 2em 0;
 	}
 
 	h4 {
@@ -725,18 +726,19 @@
 			padding: 0.675em 0.5em;
 		}
 
-			ul.icons li a {
-				text-decoration: none;
-				position: relative;
-				display: block;
-				width: 3.75em;
-				height: 3.75em;
-				border-radius: 100%;
-				border: solid 1px #c8cccf;
-				line-height: 3.75em;
-				overflow: hidden;
-				text-align: center;
-				text-indent: 3.75em;
+      ul.icons li a {
+            text-decoration: none;
+            position: relative;
+            display: block;
+            width: 3.75em;
+            height: 3.75em;
+            border-radius: 100%;
+            border: solid 1px #c8cccf;
+            line-height: 3.62em;
+            letter-spacing: 0.195em;
+            overflow: hidden;
+            text-align: center;
+            text-indent: 7em;
 				white-space: nowrap;
 			}
 
@@ -902,7 +904,7 @@
 		#main .avatar {
 			position: relative;
 			display: block;
-			margin-bottom: 1.5em;
+			margin-bottom: 0.5em;
 		}
 
 			#main .avatar img {
@@ -911,6 +913,7 @@
 				border-radius: 100%;
             box-shadow: 0 0 0 1.5em #ffffff;
             
+            /*Define o tamanho da imagem, pra ficar proporcional*/
             max-width:122px;
             max-height:122px;
             width: auto;
@@ -1032,4 +1035,9 @@
 
 		body.is-ie #wrapper {
 			height: 100%;
-		}
+      }
+      
+/*Outras necessidades*/
+   .profile {
+      margin: 0 0 3em 0;
+   }
